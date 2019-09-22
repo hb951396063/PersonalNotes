@@ -37,6 +37,15 @@ git add README.MD hello.py 加入多个文件
 git add . 把所有文件都加入缓存区
 ```
 
+## git rm
+
+把缓存区的某个文件删除掉，不提交至仓库中
+
+```
+git rm -r --cached .DS_Store
+git commit -m 'delete .DS_Store' 
+```
+
 ## git status
 
 查看git项目当前状态
